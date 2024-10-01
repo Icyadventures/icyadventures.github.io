@@ -11,6 +11,9 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background: #4CAF50;
@@ -19,6 +22,7 @@
             text-align: center;
         }
         main {
+            flex: 1; /* This makes the main area expand to fill available space */
             padding: 20px;
             max-width: 800px;
             margin: auto;
@@ -38,9 +42,6 @@
             padding: 20px;
             background: #4CAF50;
             color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -67,3 +68,4 @@
 
 </body>
 </html>
+
