@@ -3,69 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Stylish Page</title>
+    <title>Your GitHub Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
         }
         header {
-            background: #007bff;
+            background-color: #24292e;
             color: white;
-            padding: 5px 20px;
-            text-align: center;
-        }
-        main {
-            flex: 1; /* This makes the main area expand to fill available space */
             padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        p {
-            line-height: 1.6;
-        }
-        footer {
             text-align: center;
-            padding: 5px;
-            background: #007bff;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #0366d6;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1px solid #0366d6;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #0366d6;
             color: white;
+        }
+        section {
+            padding: 20px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Icy Adventures</h1>
+    <h1>Welcome to My GitHub Page</h1>
 </header>
 
-<main>
-    <h2>About This Page</h2>
-    <p>A basic static website for testing purposes.</p>
-    <h2>Features</h2>
-    <ul>
-        <li>very cool</li>
-        <li>next point</li>
-        <li> :D</li>
-    </ul>
-</main>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a>
+</nav>
 
-<footer>
-    <p>&copy; 2024 Icy Adventures</p>
-</footer>
+<section id="home">
+    <h2>Home</h2>
+    <p>This is the home section of your GitHub page. You can add some introductory content here.</p>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>This section can contain information about you or your work.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>List your projects here with descriptions and links.</p>
+</section>
 
 </body>
 </html>
+
 
